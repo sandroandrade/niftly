@@ -1,0 +1,2 @@
+# niftly
+Qt RSS Reader
