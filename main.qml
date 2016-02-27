@@ -60,6 +60,11 @@ ApplicationWindow {
                 Column {
                     id: content
                     anchors.fill: parent
+                    Image {
+                        width: parent.width
+                        fillMode: Image.PreserveAspectFit
+                        source: "qrc:/images/niftly-drawer.png"
+                    }
                     Repeater {
                         model: feeds
                         ListItem.Standard {

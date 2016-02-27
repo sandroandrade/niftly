@@ -1,5 +1,5 @@
 # Niftly
-Niftly is a RSS Reader built with Qt/QML and QML Material
+Niftly is a RSS Reader built with Qt/QML and QML Material.
 
 # How to build Niftly
 
@@ -14,5 +14,9 @@ Niftly is a RSS Reader built with Qt/QML and QML Material
    * Run 'make install'
 4. Open Niftly project in QtCreator
 5. Build it with the Android Kit
+
+If you also want to run it in your desktop, clear everything in build directory and run cmake as:
+cmake -DCMAKE_INSTALL_PREFIX=/usr/ -DCMAKE_BUILD_TYPE=Release ../
+then cd to material directory and run 'sudo make install'. Build it with the Desktop kit.
 
 Voilá ! Niftly is nifty, isn't it? ;)

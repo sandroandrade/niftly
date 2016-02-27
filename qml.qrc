@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>images/niftly-drawer.png</file>
     </qresource>
 </RCC>
 
